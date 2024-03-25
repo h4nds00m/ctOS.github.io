@@ -1,0 +1,105 @@
+body {
+    font-family: "Play", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+header {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url("imgs/load.gif");
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+nav {
+    border-style: solid;
+    border-color: #333;
+    border-width: 1px;
+    text-align: center;
+    background-color: black;
+    padding: 10px 0;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+nav a:hover {
+    text-shadow: 0 0 10px;
+    text-decoration: none;
+    opacity: .9;
+}
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+.content {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+
+    bottom: 0;
+    width: 100%;
+}
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 0 10px;
+    }
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+#contact {
+    font-family: "Play", sans-serif;
+}
+#contact a {
+    text-decoration: none;
+    color: gray;
+    transition: 0.5s;
+}
+#contact a:hover {
+        color: #333;
+}
+  
+#contact a i {
+    font-size: 2em;
+    margin: 0% 1%;
+  }
+  
+a {
+    text-decoration: underline;
+    color: #1d1c1c;
+    transition: 0.5s;
+
+}
+a:hover {
+    text-decoration: none;
+    text-shadow: 0 0 10px #615a5a;
+    font-size: 18px;
+    transition: 0.5s;
+    border-right: solid 1px #615a5a;
+    padding: 10px;
+}
+a:blank {
+    text-decoration: underline;
+    color: #1d1c1c;   
+    transition: 0.5s;
+
+}
